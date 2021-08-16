@@ -4,25 +4,8 @@ Classify text in contracts and research papers for the San Diego Tax Payers Asso
 
 ## Setting up environment
 
-The conda environment files are created using the Makefile in the ``conda-environment``
-submodule; See the README there for how to update the file
+See ``README.md`` in the requirements directory for instructions for setting up your environment
 
-To install these files on a Mac: 
+## Datasets
 
-    conda env create -f conda-environment/build/conda-Darwin.yaml -n text_class
-    
-For Linux
-
-    conda env create -f conda-environment/build/conda-linux.yaml -n text_class
-    
-For other environments you will need to create an environment file
-
-You can also run Jupyter in the conda environment under Docker by running the Makefile in the 
-``docker`` directory: 
-
-   cd docker
-   make build # Build the docker image
-   make jupyter
-   
- Then open your browser on http://127.0.0.1:9888/lab
-
+Datasets for the project are under the [text_classification](https://data.sandiegodata.org/dataset/sdcta-org-hl-contracts/) tag in the SDRDL data repository
