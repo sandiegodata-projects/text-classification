@@ -1,0 +1,5 @@
+credentials.yaml
+zotero_records.*
+pdf/
+*.pdf
+*.json
