@@ -2,5 +2,5 @@ flatten_json
 html2text
 spacy>=3
 pyzotero
-../../src/pdf-annot
 ramel
+#../../../src/pdf-annot

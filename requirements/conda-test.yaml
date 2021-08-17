@@ -1,6 +1,6 @@
 # A minimal, versionless conda env file, for building 
 # a version-pinned version of the file
-name: sez
+name: text_class
 channels:
   - defaults
   - conda-forge
