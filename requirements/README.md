@@ -6,8 +6,6 @@ environment, with only the required packages and no additional dependencies. The
 are exports of the environment for specific plantforms. The general process for creating the platform
 environments is: 
 
-
-
     # 1) Create the environment
     conda env create -n textclass_build -f conda-minimal.yaml
     # 2) Export to a platform file ( & remove the prefix, which we don't need )
