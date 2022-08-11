@@ -1,6 +1,6 @@
 # A minimal, versionless conda env file, for building 
 # a version-pinned version of the file
-name: sez
+name: test_class
 channels:
   - defaults
   - conda-forge
@@ -16,7 +16,8 @@ dependencies:
   - pip
   - nomkl # Fixes https://github.com/dmlc/xgboost/issues/1715
   - pip:
-    - spacy>=3
+    - textract
+    - spacy>3.0
     - metapack
     - metapack-build
     - metapack-github
